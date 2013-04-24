@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="47624296-6df1-4431-a34c-8f2ec92a1d8b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cli/james-server-cli.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/container-spring/james-server-container-spring.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/james-server-core.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-api/james-server-data-api.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-file/james-server-data-file.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-hbase/james-server-data-hbase.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-jcr/james-server-data-jcr.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-jdbc/james-server-data-jdbc.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-jpa/james-server-data-jpa.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-ldap/james-server-data-ldap.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-library/james-server-data-library.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dnsservice-api/james-server-dnsservice-api.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dnsservice-dnsjava/james-server-dnsservice-dnsjava.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dnsservice-library/james-server-dnsservice-library.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fetchmail/james-server-fetchmail.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/filesystem-api/james-server-filesystem-api.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifecycle-api/james-server-lifecycle-api.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifecycle-spring/james-server-lifecycle-spring.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mailbox-adapter/james-server-mailbox-adapter.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mailetcontainer-api/james-server-mailetcontainer-api.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mailetcontainer-camel/james-server-mailetcontainer-camel.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mailets/james-server-mailets.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protocols-imap4/james-server-protocols-imap4.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protocols-library/james-server-protocols-library.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protocols-lmtp/james-server-protocols-lmtp.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protocols-pop3/james-server-protocols-pop3.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protocols-smtp/james-server-protocols-smtp.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/queue-activemq/james-server-queue-activemq.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/queue-api/james-server-queue-api.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/queue-file/james-server-queue-file.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/queue-jms/james-server-queue-jms.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/util/james-server-util.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data-jpa/pom.xml" afterPath="$PROJECT_DIR$/data-jpa/pom.xml" />
+    </list>
+    <list id="2405b296-8582-46f8-a43f-df755dff30f2" name="Failed commit: Default" comment="Added BCrypt encryption to JPA password store">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data-jpa/src/main/java/org/apache/james/user/jpa/model/JPAUser.java" afterPath="$PROJECT_DIR$/data-jpa/src/main/java/org/apache/james/user/jpa/model/JPAUser.java" />
+    </list>
+    <ignored path="james-server.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="$PROJECT_DIR$/protocols-imap4/src/main/resources/META-INF/spring/imapserver-osgi.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504787" ignored="false" />
+    <file path="$PROJECT_DIR$/container-spring/src/main/appended-resources/supplemental-models.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504787" ignored="false" />
+    <file path="$PROJECT_DIR$/protocols-imap4/src/main/resources/META-INF/spring/imapserver-context.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504788" ignored="false" />
+    <file path="$PROJECT_DIR$/protocols-imap4/src/reporting-site/site.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504788" ignored="false" />
+    <file path="$PROJECT_DIR$/lifecycle-api/src/reporting-site/site.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504790" ignored="false" />
+    <file path="$PROJECT_DIR$/queue-jms/src/reporting-site/site.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504790" ignored="false" />
+    <file path="$PROJECT_DIR$/dnsservice-api/pom.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504791" ignored="false" />
+    <file path="$PROJECT_DIR$/dnsservice-dnsjava/pom.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504791" ignored="false" />
+    <file path="$PROJECT_DIR$/dnsservice-library/pom.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504791" ignored="false" />
+    <file path="$PROJECT_DIR$/fetchmail/pom.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504791" ignored="false" />
+    <file path="$PROJECT_DIR$/data-file/src/reporting-site/site.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504791" ignored="false" />
+    <file path="$PROJECT_DIR$/core/src/reporting-site/site.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504791" ignored="false" />
+    <file path="$PROJECT_DIR$/lifecycle-spring/src/main/resources/META-INF/spring/extender/lifecycle-extender.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504791" ignored="false" />
+    <file path="$PROJECT_DIR$/data-jcr/pom.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504791" ignored="false" />
+    <file path="$PROJECT_DIR$/data-jdbc/pom.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504792" ignored="false" />
+    <file path="$PROJECT_DIR$/protocols-smtp/src/main/resources/META-INF/spring/smtpserver-context.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504792" ignored="false" />
+    <file path="$PROJECT_DIR$/dnsservice-dnsjava/src/main/resources/META-INF/spring/dns-context.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504792" ignored="false" />
+    <file path="$PROJECT_DIR$/data-file/pom.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504792" ignored="false" />
+    <file path="$PROJECT_DIR$/protocols-smtp/src/main/resources/META-INF/spring/smtpserver-osgi.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504792" ignored="false" />
+    <file path="$PROJECT_DIR$/lifecycle-spring/pom.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504792" ignored="false" />
+    <file path="$PROJECT_DIR$/filesystem-api/src/reporting-site/site.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504792" ignored="false" />
+    <file path="$PROJECT_DIR$/mailbox-adapter/pom.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504792" ignored="false" />
+    <file path="$PROJECT_DIR$/data-jdbc/src/main/resources/OSGI-INF/blueprint/jdbc.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504792" ignored="false" />
+    <file path="$PROJECT_DIR$/data-hbase/src/reporting-site/site.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504792" ignored="false" />
+    <file path="$PROJECT_DIR$/data-api/src/reporting-site/site.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504792" ignored="false" />
+    <file path="$PROJECT_DIR$/protocols-library/pom.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504793" ignored="false" />
+    <file path="$PROJECT_DIR$/protocols-lmtp/pom.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504793" ignored="false" />
+    <file path="$PROJECT_DIR$/protocols-pop3/pom.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504793" ignored="false" />
+    <file path="$PROJECT_DIR$/protocols-smtp/pom.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504793" ignored="false" />
+    <file path="$PROJECT_DIR$/queue-api/pom.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504793" ignored="false" />
+    <file path="$PROJECT_DIR$/data-jdbc/src/test/resources/sqlResources-mail.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504793" ignored="false" />
+    <file path="$PROJECT_DIR$/protocols-lmtp/src/main/resources/META-INF/spring/lmtpserver-context.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504793" ignored="false" />
+    <file path="$PROJECT_DIR$/queue-jms/pom.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504793" ignored="false" />
+    <file path="$PROJECT_DIR$/protocols-lmtp/src/reporting-site/site.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504793" ignored="false" />
+    <file path="$PROJECT_DIR$/queue-activemq/pom.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504801" ignored="false" />
+    <file path="$PROJECT_DIR$/util/src/reporting-site/site.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504793" ignored="false" />
+    <file path="$PROJECT_DIR$/data-jcr/src/test/resources/test-repository.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504794" ignored="false" />
+    <file path="$PROJECT_DIR$/queue-activemq/src/main/resources/META-INF/spring/activemq-queue-context.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504801" ignored="false" />
+    <file path="$PROJECT_DIR$/dnsservice-library/src/reporting-site/site.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504794" ignored="false" />
+    <file path="$PROJECT_DIR$/protocols-pop3/src/main/resources/META-INF/spring/pop3server-context.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504796" ignored="false" />
+    <file path="$PROJECT_DIR$/fetchmail/src/main/resources/META-INF/spring/fetchmail-osgi.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504796" ignored="false" />
+    <file path="$PROJECT_DIR$/protocols-pop3/src/main/resources/META-INF/spring/pop3server-osgi.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504796" ignored="false" />
+    <file path="$PROJECT_DIR$/fetchmail/src/reporting-site/site.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504796" ignored="false" />
+    <file path="$PROJECT_DIR$/mailbox-adapter/src/reporting-site/site.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504796" ignored="false" />
+    <file path="$PROJECT_DIR$/data-library/src/main/resources/META-INF/spring/data-context.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504796" ignored="false" />
+    <file path="$PROJECT_DIR$/protocols-pop3/src/reporting-site/site.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504800" ignored="false" />
+    <file path="$PROJECT_DIR$/data-library/src/main/resources/META-INF/spring/data-osgi.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504800" ignored="false" />
+    <file path="$PROJECT_DIR$/data-jpa/src/test/java/org/apache/james/user/jpa/JpaUsersRepositoryTest.java" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366764646190" ignored="false" />
+    <file path="$PROJECT_DIR$/data-jpa/src/reporting-site/site.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504800" ignored="false" />
+    <file path="$PROJECT_DIR$/queue-api/src/reporting-site/site.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504801" ignored="false" />
+    <file path="$PROJECT_DIR$/data-library/src/reporting-site/site.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366761504801" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366767164857" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/misc.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366765996674" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/compiler.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366765996675" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/encodings.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366765996676" ignored="false" />
+    <file path="/Dummy.txt" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366766873458" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/vcs.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366765996675" ignored="false" />
+    <file path="/JPAUser.java" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366764192302" ignored="false" />
+    <file path="$PROJECT_DIR$/data-api/src/main/java/org/apache/james/user/api/JamesUsersRepository.java" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366764935505" ignored="false" />
+    <file path="$PROJECT_DIR$/data-api/src/main/java/org/apache/james/user/api/UsersRepositoryException.java" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366765996670" ignored="false" />
+    <file path="$PROJECT_DIR$/data-api/src/main/java/org/apache/james/user/api/UsersRepositoryManagementMBean.java" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366764935505" ignored="false" />
+    <file path="$PROJECT_DIR$/data-api/src/main/java/org/apache/james/user/api/model/User.java" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366765996670" ignored="false" />
+    <file path="$PROJECT_DIR$/core/src/main/java/org/apache/james/core/MimeMessageInputStreamSource.java" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366765996671" ignored="false" />
+    <file path="$PROJECT_DIR$/core/src/main/java/org/apache/james/core/MimeMessageSource.java" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366765996671" ignored="false" />
+    <file path="$PROJECT_DIR$/core/src/main/java/org/apache/james/core/package.html" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366764935506" ignored="false" />
+    <file path="$PROJECT_DIR$/core/src/main/java/org/apache/james/core/MimeMessageUtil.java" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366765996671" ignored="false" />
+    <file path="$PROJECT_DIR$/core/src/main/java/org/apache/james/core/MailHeaders.java" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366765996672" ignored="false" />
+    <file path="$PROJECT_DIR$/core/src/main/java/org/apache/james/core/MimeMessageInputStream.java" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366765996672" ignored="false" />
+    <file path="$PROJECT_DIR$/core/src/main/java/org/apache/james/core/InternetHeadersInputStream.java" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366765996672" ignored="false" />
+    <file path="$PROJECT_DIR$/core/src/main/java/org/apache/james/core/MimeMessageCopyOnWriteProxy.java" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366765996672" ignored="false" />
+    <file path="$PROJECT_DIR$/container-spring/src/main/java/org/apache/james/container/spring/context/JamesServerApplicationContext.java" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366764935506" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/.name" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366765996674" ignored="false" />
+    <file path="$PROJECT_DIR$/container-spring/src/main/java/org/apache/james/container/spring/mailbox/MailboxCopierManagementMBean.java" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366764935506" ignored="false" />
+    <file path="$PROJECT_DIR$/container-spring/src/main/java/org/apache/james/container/spring/mailbox/MailboxCopierManagement.java" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366764935506" ignored="false" />
+    <file path="$PROJECT_DIR$/cli/pom.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366765996674" ignored="false" />
+    <file path="$PROJECT_DIR$/container-spring/src/main/java/org/apache/james/container/spring/filesystem/ResourceLoaderFileSystem.java" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366764935506" ignored="false" />
+    <file path="$PROJECT_DIR$/container-spring/src/main/java/org/apache/james/container/spring/filesystem/FileSystemImpl.java" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366764935507" ignored="false" />
+    <file path="$PROJECT_DIR$/container-spring/src/main/resources/META-INF/spring/loaders-osgi.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366764935508" ignored="false" />
+    <file path="$PROJECT_DIR$/container-spring/src/main/resources/META-INF/spring/loaders-context.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366764935508" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/modules.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366765996676" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/uiDesigner.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366765996676" ignored="false" />
+    <file path="$PROJECT_DIR$/cli/README" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366765996677" ignored="false" />
+    <file path="$PROJECT_DIR$/container-spring/pom.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366765996677" ignored="false" />
+    <file path="$PROJECT_DIR$/lifecycle-api/src/main/java/org/apache/james/lifecycle/api/LogEnabled.java" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366765996677" ignored="false" />
+    <file path="$PROJECT_DIR$/lifecycle-api/src/main/java/org/apache/james/lifecycle/api/Configurable.java" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366765996677" ignored="false" />
+    <file path="$PROJECT_DIR$/core/pom.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366765996677" ignored="false" />
+    <file path="$PROJECT_DIR$/data-api/pom.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366765996677" ignored="false" />
+    <file path="$PROJECT_DIR$/data-library/src/main/java/org/apache/james/user/lib/AbstractUsersRepository.java" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366765996678" ignored="false" />
+    <file path="$PROJECT_DIR$/data-jpa/src/main/resources/META-INF/persistence.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366764646192" ignored="false" />
+    <file path="$PROJECT_DIR$/data-library/pom.xml" changelist="47624296-6df1-4431-a34c-8f2ec92a1d8b" time="1366764935509" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="james-server" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="JPAUsersRepository.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-jpa/src/main/java/org/apache/james/user/jpa/JPAUsersRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="258" column="48" selection-start="9581" selection-end="9581" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsersRepository.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-api/src/main/java/org/apache/james/user/api/UsersRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="72" column="28" selection-start="2824" selection-end="2824" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MailImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/org/apache/james/core/MailImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="84" column="13" selection-start="3215" selection-end="3215" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JPAUser.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data-jpa/src/main/java/org/apache/james/user/jpa/model/JPAUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="40" selection-start="2908" selection-end="2908" vertical-scroll-proportion="0.90909094">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-jpa/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="192" column="45" selection-start="7415" selection-end="7415" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/data-jpa/src/main/java/org/apache/james/user/jpa/JPAUsersRepository.java" />
+        <option value="$PROJECT_DIR$/data-jpa/src/main/java/org/apache/james/user/jpa/model/JPAUser.java" />
+        <option value="$PROJECT_DIR$/data-jpa/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Apache James Server JPA Data Persistence" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Apache James Server JPA Data Persistence" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Apache James Server Data Library" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1431" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="james-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="james-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="James" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="james-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="James" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data-ldap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="james-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="James" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data-jpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="james-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="James" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data-jpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="james-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="James" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data-jpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="james-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="James" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data-jpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="james" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="james-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="James" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data-jpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="james" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="james-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="James" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data-jpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="james" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="appearance" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="0" />
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="true">$USER_HOME$/.subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/cli" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/cli" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/container-spring" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/container-spring" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/core" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/core" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/data-api" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/data-api" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/data-file" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/data-file" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/data-hbase" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/data-hbase" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/data-jcr" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/data-jcr" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/data-jdbc" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/data-jdbc" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/data-jpa" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/data-jpa" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/data-ldap" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/data-ldap" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/data-library" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/data-library" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/dnsservice-api" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/dnsservice-api" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/dnsservice-dnsjava" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/dnsservice-dnsjava" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/dnsservice-library" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/dnsservice-library" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/fetchmail" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/fetchmail" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/filesystem-api" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/filesystem-api" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/lifecycle-api" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/lifecycle-api" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/lifecycle-spring" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/lifecycle-spring" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/mailbox-adapter" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/mailbox-adapter" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/mailetcontainer-api" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/mailetcontainer-api" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/mailetcontainer-camel" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/mailetcontainer-camel" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/mailets" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/mailets" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/protocols-imap4" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/protocols-imap4" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/protocols-library" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/protocols-library" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/protocols-lmtp" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/protocols-lmtp" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/protocols-pop3" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/protocols-pop3" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/protocols-smtp" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/protocols-smtp" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/queue-activemq" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/queue-activemq" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/queue-api" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/queue-api" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/queue-file" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/queue-file" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/queue-jms" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/queue-jms" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/util" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/util" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47624296-6df1-4431-a34c-8f2ec92a1d8b" name="Default" comment="" />
+      <created>1366760894213</created>
+      <updated>1366760894213</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1431" y="24" width="1855" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32941177" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32927504" sideWeight="0.67058825" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958494" sideWeight="0.67058825" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added BCrypt encryption to JPA password store" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Added BCrypt encryption to JPA password store&#10;Added enhanced security BCrypt + SHA-512 encryption" />
+    <MESSAGE value="Added BCrypt encryption to JPA password store&#10;Added enhanced security BCrypt + SHA-512 encryption&#10;" />
+    <MESSAGE value="Added BCrypt encryption to JPA password store" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/apache/james/core/package.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-jpa/src/main/java/org/apache/james/user/jpa/JPAUsersRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="258" column="48" selection-start="9581" selection-end="9581" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-api/src/main/java/org/apache/james/user/api/UsersRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="28" selection-start="2824" selection-end="2824" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/apache/james/core/MailImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="13" selection-start="3215" selection-end="3215" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-jpa/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="192" column="45" selection-start="7415" selection-end="7415" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-jpa/src/main/java/org/apache/james/user/jpa/model/JPAUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="40" selection-start="2908" selection-end="2908" vertical-scroll-proportion="0.90909094">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

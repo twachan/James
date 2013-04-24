@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cli" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/container-spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data-file" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data-hbase" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data-jcr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data-jdbc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data-jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data-ldap" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data-library" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dnsservice-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dnsservice-dnsjava" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dnsservice-library" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fetchmail" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filesystem-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lifecycle-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lifecycle-spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mailbox-adapter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mailetcontainer-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mailetcontainer-camel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mailets" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/protocols-imap4" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/protocols-library" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/protocols-lmtp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/protocols-pop3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/protocols-smtp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/queue-activemq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/queue-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/queue-file" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/queue-jms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/util" charset="UTF-8" />
+  </component>
+</project>
+

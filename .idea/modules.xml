@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/james-server.iml" filepath="$PROJECT_DIR$/james-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cli/james-server-cli.iml" filepath="$PROJECT_DIR$/cli/james-server-cli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/container-spring/james-server-container-spring.iml" filepath="$PROJECT_DIR$/container-spring/james-server-container-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/james-server-core.iml" filepath="$PROJECT_DIR$/core/james-server-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-api/james-server-data-api.iml" filepath="$PROJECT_DIR$/data-api/james-server-data-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-file/james-server-data-file.iml" filepath="$PROJECT_DIR$/data-file/james-server-data-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-hbase/james-server-data-hbase.iml" filepath="$PROJECT_DIR$/data-hbase/james-server-data-hbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-jcr/james-server-data-jcr.iml" filepath="$PROJECT_DIR$/data-jcr/james-server-data-jcr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-jdbc/james-server-data-jdbc.iml" filepath="$PROJECT_DIR$/data-jdbc/james-server-data-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-jpa/james-server-data-jpa.iml" filepath="$PROJECT_DIR$/data-jpa/james-server-data-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-ldap/james-server-data-ldap.iml" filepath="$PROJECT_DIR$/data-ldap/james-server-data-ldap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-library/james-server-data-library.iml" filepath="$PROJECT_DIR$/data-library/james-server-data-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnsservice-api/james-server-dnsservice-api.iml" filepath="$PROJECT_DIR$/dnsservice-api/james-server-dnsservice-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnsservice-dnsjava/james-server-dnsservice-dnsjava.iml" filepath="$PROJECT_DIR$/dnsservice-dnsjava/james-server-dnsservice-dnsjava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnsservice-library/james-server-dnsservice-library.iml" filepath="$PROJECT_DIR$/dnsservice-library/james-server-dnsservice-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fetchmail/james-server-fetchmail.iml" filepath="$PROJECT_DIR$/fetchmail/james-server-fetchmail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filesystem-api/james-server-filesystem-api.iml" filepath="$PROJECT_DIR$/filesystem-api/james-server-filesystem-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lifecycle-api/james-server-lifecycle-api.iml" filepath="$PROJECT_DIR$/lifecycle-api/james-server-lifecycle-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lifecycle-spring/james-server-lifecycle-spring.iml" filepath="$PROJECT_DIR$/lifecycle-spring/james-server-lifecycle-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mailbox-adapter/james-server-mailbox-adapter.iml" filepath="$PROJECT_DIR$/mailbox-adapter/james-server-mailbox-adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mailetcontainer-api/james-server-mailetcontainer-api.iml" filepath="$PROJECT_DIR$/mailetcontainer-api/james-server-mailetcontainer-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mailetcontainer-camel/james-server-mailetcontainer-camel.iml" filepath="$PROJECT_DIR$/mailetcontainer-camel/james-server-mailetcontainer-camel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mailets/james-server-mailets.iml" filepath="$PROJECT_DIR$/mailets/james-server-mailets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/protocols-imap4/james-server-protocols-imap4.iml" filepath="$PROJECT_DIR$/protocols-imap4/james-server-protocols-imap4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/protocols-library/james-server-protocols-library.iml" filepath="$PROJECT_DIR$/protocols-library/james-server-protocols-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/protocols-lmtp/james-server-protocols-lmtp.iml" filepath="$PROJECT_DIR$/protocols-lmtp/james-server-protocols-lmtp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/protocols-pop3/james-server-protocols-pop3.iml" filepath="$PROJECT_DIR$/protocols-pop3/james-server-protocols-pop3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/protocols-smtp/james-server-protocols-smtp.iml" filepath="$PROJECT_DIR$/protocols-smtp/james-server-protocols-smtp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/queue-activemq/james-server-queue-activemq.iml" filepath="$PROJECT_DIR$/queue-activemq/james-server-queue-activemq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/queue-api/james-server-queue-api.iml" filepath="$PROJECT_DIR$/queue-api/james-server-queue-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/queue-file/james-server-queue-file.iml" filepath="$PROJECT_DIR$/queue-file/james-server-queue-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/queue-jms/james-server-queue-jms.iml" filepath="$PROJECT_DIR$/queue-jms/james-server-queue-jms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/util/james-server-util.iml" filepath="$PROJECT_DIR$/util/james-server-util.iml" />
+    </modules>
+  </component>
+</project>
+
